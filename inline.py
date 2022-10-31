@@ -1,4 +1,4 @@
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQuery
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 mainMenu = InlineKeyboardMarkup(
     inline_keyboard=[
@@ -51,37 +51,37 @@ menuXiti = InlineKeyboardMarkup(
 menuLav = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🥩🌯 Mol go'shtli lavash 🥩🌯", callback_data="mlavash")
+            InlineKeyboardButton(text="🥩🌯 Mol go'shtli lavash 🥩🌯", callback_data="b1")
         ],
         [
-            InlineKeyboardButton(text="🍗🌯 Tovuqli lavash 🍗🌯", callback_data="tovuq lavash")
+            InlineKeyboardButton(text="🍗🌯 Tovuqli lavash 🍗🌯", callback_data="b2")
         ],
         [
-            InlineKeyboardButton(text="🔽🥩🌯 Mini mol go'shtli lavash 🔽🥩🌯", callback_data="mini mol lavash")
+            InlineKeyboardButton(text="🔽🥩🌯 Mini mol go'shtli lavash 🔽🥩🌯", callback_data="b3")
         ],
         [
-            InlineKeyboardButton(text="🔽🍗🌯 Mini tovuqli lavash 🔽🍗🌯", callback_data="mini tovuq lavash")
+            InlineKeyboardButton(text="🔽🍗🌯 Mini tovuqli lavash 🔽🍗🌯", callback_data="b4")
         ],
         [
-            InlineKeyboardButton(text="🧀🥩🌯 Sirli mol go'shtli lavash 🧀🥩🌯", callback_data="cheese mol lavash")
+            InlineKeyboardButton(text="🧀🥩🌯 Sirli mol go'shtli lavash 🧀🥩🌯", callback_data="b5")
         ],
         [
-            InlineKeyboardButton(text="🧀🍗🌯 Sir qo'shilgan tovuqli lavash 🧀🍗🌯", callback_data="cheese tovuq lavash")
+            InlineKeyboardButton(text="🧀🍗🌯 Sir qo'shilgan tovuqli lavash 🧀🍗🌯", callback_data="b6")
         ],
         [
-            InlineKeyboardButton(text="🔽🧀🌯🥩 Mini sir qo'shilgan lavash 🔽🧀🌯🥩", callback_data="mini cheese mol lavash")
+            InlineKeyboardButton(text="🔽🧀🌯🥩 Mini sir qo'shilgan lavash 🔽🧀🌯🥩", callback_data="b7")
         ],
         [
-            InlineKeyboardButton(text="🔽🧀🌯🍗 Mini sir qo'shilgan lavash 🔽🧀🌯🍗", callback_data="mini tovuq lavash")
+            InlineKeyboardButton(text="🔽🧀🌯🍗 Mini sir qo'shilgan lavash 🔽🧀🌯🍗", callback_data="b8")
         ],
         [
-            InlineKeyboardButton(text="🥩🌶🌯 Qalampirli lavash 🥩🌶🌯", callback_data="qalampir mol lavash")
+            InlineKeyboardButton(text="🥩🌶🌯 Qalampirli lavash 🥩🌶🌯", callback_data="b9")
         ],
         [
-            InlineKeyboardButton(text="🍗🌶🌯 Qalampirli lavash 🍗🌶🌯", callback_data="qalampir tovuq lavash")
+            InlineKeyboardButton(text="🍗🌶🌯 Qalampirli lavash 🍗🌶🌯", callback_data="ba")
         ],
         [
-            InlineKeyboardButton(text="🌯🥗 Fitter 🌯🥗", callback_data="fitter")
+            InlineKeyboardButton(text="🌯🥗 Fitter 🌯🥗", callback_data="bb")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -91,34 +91,34 @@ menuLav = InlineKeyboardMarkup(
 menuHot = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🌭 Hot-dog 🌭", callback_data="hotdog")
+            InlineKeyboardButton(text="🌭 Hot-dog 🌭", callback_data="c1")
         ],
         [
-            InlineKeyboardButton(text="🌭🌭 Double Hot-dog 🌭🌭", callback_data="double hotdog")
+            InlineKeyboardButton(text="🌭🌭 Double Hot-dog 🌭🌭", callback_data="c2")
         ],
         [
-            InlineKeyboardButton(text="🔽🌭 Mini Hot-dog 🔽🌭", callback_data="mini hotdog")
+            InlineKeyboardButton(text="🔽🌭 Mini Hot-dog 🔽🌭", callback_data="c3")
         ],
         [
-            InlineKeyboardButton(text="🍟 Kartoshka FRI 🍟", callback_data="free")
+            InlineKeyboardButton(text="🍟 Kartoshka FRI 🍟", callback_data="c4")
         ],
         [
-            InlineKeyboardButton(text="🍟🥔 Kartoshka po derevenski 🥔🍟", callback_data="kartoshka")
+            InlineKeyboardButton(text="🍟🥔 Kartoshka po derevenski 🥔🍟", callback_data="c5")
         ],
         [
-            InlineKeyboardButton(text="🔽🌭 Kichik yoshdagilar uchun Hot-dog 🌭🔽", callback_data="mmini hotdog")
+            InlineKeyboardButton(text="🔽🌭 Kichik yoshdagilar uchun Hot-dog 🌭🔽", callback_data="c6")
         ],
         [
-            InlineKeyboardButton(text="🍗🥟 Tovuqli Sab 🥟🍗", callback_data="tovuq sab")
+            InlineKeyboardButton(text="🍗🥟 Tovuqli Sab 🥟🍗", callback_data="c7")
         ],
         [
-            InlineKeyboardButton(text="🥩🥟 Mol go'shtli Sab 🥟🥩", callback_data="mol sab")
+            InlineKeyboardButton(text="🥩🥟 Mol go'shtli Sab 🥟🥩", callback_data="c8")
         ],
         [
-            InlineKeyboardButton(text="🧀🍗🥟 Sir qo'shilgan Sab 🧀🍗🥟", callback_data="sir tovuq sab")
+            InlineKeyboardButton(text="🧀🍗🥟 Sir qo'shilgan Sab 🧀🍗🥟", callback_data="c9")
         ],
         [
-            InlineKeyboardButton(text="🧀🥩🥟 Sir qo'shilgan Sab 🧀🥩🥟", callback_data="sir mol sab")
+            InlineKeyboardButton(text="🧀🥩🥟 Sir qo'shilgan Sab 🧀🥩🥟", callback_data="l2")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -129,28 +129,28 @@ menuHot = InlineKeyboardMarkup(
 menuShaur = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🔽🍔🥩 Mini mol go'shtli Shaurma 🥩🍔🔽", callback_data="mini mol shaur")
+            InlineKeyboardButton(text="🔽🍔🥩 Mini mol go'shtli Shaurma 🥩🍔🔽", callback_data="d1")
         ],
         [
-            InlineKeyboardButton(text="🍔🥩 Mol go'shtli Shaurma 🥩🍔", callback_data="mol shaur")
+            InlineKeyboardButton(text="🍔🥩 Mol go'shtli Shaurma 🥩🍔", callback_data="d2")
         ],
         [
-            InlineKeyboardButton(text="🔽🍔🍗 Mini tovuqli Shaurma 🍗🍔🔽", callback_data="mini tovuq shaur")
+            InlineKeyboardButton(text="🔽🍔🍗 Mini tovuqli Shaurma 🍗🍔🔽", callback_data="d3")
         ],
         [
-            InlineKeyboardButton(text="🍔🍗 Tovuqli Shaurma 🍗🍔", callback_data="tovuq shaur")
+            InlineKeyboardButton(text="🍔🍗 Tovuqli Shaurma 🍗🍔", callback_data="d4")
         ],
         [
-            InlineKeyboardButton(text="🌶🍔🥩 Qalampirli Shaurma 🥩🍔🌶", callback_data="qalampir mol shaur")
+            InlineKeyboardButton(text="🌶🍔🥩 Qalampirli Shaurma 🥩🍔🌶", callback_data="d5")
         ],
         [
-            InlineKeyboardButton(text="🔽🌶🍔🥩 Mini Qalampirli Shaurma 🥩🍔🌶🔽", callback_data="mini qalampir mol shaur")
+            InlineKeyboardButton(text="🔽🌶🍔🥩 Mini Qalampirli Shaurma 🥩🍔🌶🔽", callback_data="d6")
         ],
         [
-            InlineKeyboardButton(text="🌶🍔🍗 Qalampirli Shaurma 🍗🍔🌶", callback_data="qalampir tovuq shaur")
+            InlineKeyboardButton(text="🌶🍔🍗 Qalampirli Shaurma 🍗🍔🌶", callback_data="d7")
         ],
         [
-            InlineKeyboardButton(text="🔽🌶🍔🍗 Mini Qalampirli Shaurma 🍗🍔🌶🔽", callback_data="mini qalampir tovuq shaur")
+            InlineKeyboardButton(text="🔽🌶🍔🍗 Mini Qalampirli Shaurma 🍗🍔🌶🔽", callback_data="d8")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -161,16 +161,16 @@ menuShaur = InlineKeyboardMarkup(
 menuGam = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🍔 Gamburger 🍔", callback_data="gamburger")
+            InlineKeyboardButton(text="🍔 Gamburger 🍔", callback_data="e1")
         ],
         [
-            InlineKeyboardButton(text="🍔🍔 Double Burger 🍔🍔", callback_data="double burger")
+            InlineKeyboardButton(text="🍔🍔 Double Burger 🍔🍔", callback_data="e2")
         ],
         [
-            InlineKeyboardButton(text="🧀🍔 Cheese burger 🍔🧀", callback_data="cheese burger")
+            InlineKeyboardButton(text="🧀🍔 Cheese burger 🍔🧀", callback_data="e3")
         ],
         [
-            InlineKeyboardButton(text="🧀🍔🍔 Double cheese burger 🍔🍔🧀", callback_data="double cheese burger")
+            InlineKeyboardButton(text="🧀🍔🍔 Double cheese burger 🍔🍔🧀", callback_data="e4")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -181,13 +181,13 @@ menuGam = InlineKeyboardMarkup(
 menuAssorti = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🥩 Mol go'shtli danar 🥩", callback_data="mol danar")
+            InlineKeyboardButton(text="🥩 Mol go'shtli danar 🥩", callback_data="f1")
         ],
         [
-            InlineKeyboardButton(text="🍗 Tovuqli danar 🍗", callback_data="tovuq danar")
+            InlineKeyboardButton(text="🍗 Tovuqli danar 🍗", callback_data="f2")
         ],
         [
-            InlineKeyboardButton(text="🍗🍗 Stripsi 🍗🍗", callback_data="strips")
+            InlineKeyboardButton(text="🍗🍗 Stripsi 🍗🍗", callback_data="f3")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -198,10 +198,10 @@ menuAssorti = InlineKeyboardMarkup(
 menuKombo = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🌭🍟 Kombo plyus 🍟🌭", callback_data="kombo plyus")
+            InlineKeyboardButton(text="🌭🍟 Kombo plyus 🍟🌭", callback_data="g1")
         ],
         [
-            InlineKeyboardButton(text="🌭🍟 Detskoe Kombo 🍟🌭", callback_data="kombo yosh")
+            InlineKeyboardButton(text="🌭🍟 Detskoe Kombo 🍟🌭", callback_data="g2")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -212,16 +212,16 @@ menuKombo = InlineKeyboardMarkup(
 menuDesert = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="🍯🍰 Medovik 🍰🍯", callback_data="medovik")
+            InlineKeyboardButton(text="🍯🍰 Medovik 🍰🍯", callback_data="h1")
         ],
         [
-            InlineKeyboardButton(text="🧀🍰 Cheese Cake 🍰🧀", callback_data="cheese cake")
+            InlineKeyboardButton(text="🧀🍰 Cheese Cake 🍰🧀", callback_data="h2")
         ],
         [
-            InlineKeyboardButton(text="🍩🍓 Donat yagodniy misks 🍓🍩", callback_data="donat yagoda")
+            InlineKeyboardButton(text="🍩🍓 Donat yagodniy misks 🍓🍩", callback_data="h3")
         ],
         [
-            InlineKeyboardButton(text="🍩🍭 Donat caramel 🍭🍩", callback_data="donat caramel")
+            InlineKeyboardButton(text="🍩🍭 Donat caramel 🍭🍩", callback_data="h4")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -232,20 +232,20 @@ menuDesert = InlineKeyboardMarkup(
 menuSous = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Ketchup", callback_data="ketchup"),
-            InlineKeyboardButton(text="Mayonez", callback_data="mayonez")
+            InlineKeyboardButton(text="Ketchup", callback_data="i1"),
+            InlineKeyboardButton(text="Mayonez", callback_data="i2")
         ],
         [
-            InlineKeyboardButton(text="Sir qo'shilgan sous", callback_data="sir sous"),
-            InlineKeyboardButton(text="Chesnok qo'shilgan sous", callback_data="chesnok sous")
+            InlineKeyboardButton(text="Sir qo'shilgan sous", callback_data="i3"),
+            InlineKeyboardButton(text="Chesnok qo'shilgan sous", callback_data="i4")
         ],
         [
-            InlineKeyboardButton(text="Chili sous", callback_data="chili sous"),
-            InlineKeyboardButton(text="Guruch", callback_data="guruch")
+            InlineKeyboardButton(text="Chili sous", callback_data="i5"),
+            InlineKeyboardButton(text="Guruch", callback_data="i6")
         ],
         [
-            InlineKeyboardButton(text="Salat", callback_data="salat"),
-            InlineKeyboardButton(text="Non", callback_data="non")
+            InlineKeyboardButton(text="Salat", callback_data="i7"),
+            InlineKeyboardButton(text="Non", callback_data="i8")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -256,15 +256,15 @@ menuSous = InlineKeyboardMarkup(
 menuSok = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Sok Bliss. 1 litr", callback_data="bliss")
+            InlineKeyboardButton(text="Sok Bliss. 1 litr", callback_data="j1")
         ],
         [
-            InlineKeyboardButton(text="Pepsi 1.5 litr", callback_data="pepsi 1.5"),
-            InlineKeyboardButton(text="Pepsi 0.5 litr", callback_data="pepsi 0.5")
+            InlineKeyboardButton(text="Pepsi 1.5 litr", callback_data="j2"),
+            InlineKeyboardButton(text="Pepsi 0.5 litr", callback_data="j3")
         ],
         [
-            InlineKeyboardButton(text="Gazsiz suv 0.5 litr", callback_data="gazsiz suv"),
-            InlineKeyboardButton(text="Pepsi razliv 0.4 litr", callback_data="pepsi 0.4 litr")
+            InlineKeyboardButton(text="Gazsiz suv 0.5 litr", callback_data="j4"),
+            InlineKeyboardButton(text="Pepsi razliv 0.4 litr", callback_data="j5")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
@@ -275,19 +275,19 @@ menuSok = InlineKeyboardMarkup(
 menuChoy = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text="Ko'k choy", callback_data="ko'k choy"),
-            InlineKeyboardButton(text="Qora choy", callback_data="qora choy")
+            InlineKeyboardButton(text="Ko'k choy", callback_data="k1"),
+            InlineKeyboardButton(text="Qora choy", callback_data="k2")
         ],
         [
-            InlineKeyboardButton(text="Limonli ko'k choy", callback_data="limon ko'k choy"),
-            InlineKeyboardButton(text="Limonli qora choy", callback_data="limon qora choy")
+            InlineKeyboardButton(text="Limonli ko'k choy", callback_data="k3"),
+            InlineKeyboardButton(text="Limonli qora choy", callback_data="k4")
         ],
         [
-            InlineKeyboardButton(text="Cappuccino", callback_data="cappuccino"),
-            InlineKeyboardButton(text="Americano", callback_data="americano")
+            InlineKeyboardButton(text="Cappuccino", callback_data="k5"),
+            InlineKeyboardButton(text="Americano", callback_data="k6")
         ],
         [
-            InlineKeyboardButton(text="Latte", callback_data="latte"),
+            InlineKeyboardButton(text="Latte", callback_data="k7"),
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
         ]
     ]
@@ -299,20 +299,140 @@ shaurmamenu = InlineKeyboardMarkup(
             InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
         ],
         [
-            InlineKeyboardButton(text="🔙 Orqaga 🔙", callback_data="back")
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="back")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
         ]
     ]
 )
+
 Lavashmenu = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
         ],
         [
-            InlineKeyboardButton(text="🔙 Orqaga 🔙", callback_data="ack")
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="ack")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+
+Hotdogmenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l1")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+
+Shaurmenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l3")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Hamburgermenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l4")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Blyudamenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l5")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Combomenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l6")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Desertmenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l7")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Sousmenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l8")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Sokmenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="l9")
+        ],
+        [
+            InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
+        ]
+    ]
+)
+Choymenu = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text="🧺 Savatchaga qo'shish 🧺", callback_data="basket")
+        ],
+        [
+            InlineKeyboardButton(text="🔙 Ortga 🔙", callback_data="m1")
         ],
         [
             InlineKeyboardButton(text="🍽 Menu 🍽", callback_data="menu")
